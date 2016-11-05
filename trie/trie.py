@@ -17,6 +17,7 @@ class Trie:
             current = current._children.setdefault(letter, Trie())
         current._endsHere = True
 
+
 def makeTrie(*words):
     trie = Trie()
     for word in words:
