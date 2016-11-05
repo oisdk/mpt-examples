@@ -24,17 +24,20 @@ class TrieTests(unittest.TestCase):
     def testMakeTrie(self):
         for _ in range(100):
             words = rand_tuples(randrange(30))
-            t = makeTrie(*words)
+            t = Trie.fromWords(*words)
             for word in words:
                 self.assertTrue(t.member(word))
 
     def testIter(self):
         for _ in range(100):
             words = rand_tuples(randrange(30))
-            t = makeTrie(*words)
+            t = Trie.fromWords(*words)
             l = sorted(map(list, set(words)))
             self.assertEqual(list(t),l)
 
 
 if __name__ == '__main__':
     unittest.main()
+    import doctest
+    import trie
+    doctest.testmod(m=trie)
