@@ -3,6 +3,7 @@
 ## Problem 2: Polish parsing
 
 Input: a space-separated reverse-polish notation expression, with the operators *, +, /, -.
+
 Output: The result of evaluating that expression (integer division)
 
 ## Problem 3: Graph problem from last week [(2011 question 3)](http://aipo.computing.dcu.ie/2011-programming-problems)
@@ -12,7 +13,9 @@ Output: The result of evaluating that expression (integer division)
 ## Problem 4: Regular Expressions
 
 Input:
+
   Line 1: a regular expression, containing |, *, {} syntax.
+  
   Line 2: text to match against
 
 Output: 1 if the regex matches, 0 if it does not
