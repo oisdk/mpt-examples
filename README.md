@@ -2,6 +2,8 @@
 
 [This website](http://www.redblobgames.com/pathfinding/a-star/introduction.html) has the best tutorial.
 
+If you have time, implement A* for the general case.
+
 ## Problem 2: Regular Expressions
 
 Input:
