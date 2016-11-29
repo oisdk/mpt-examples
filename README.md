@@ -18,10 +18,10 @@ Write a similar function for [Pascal's triangle](https://en.wikipedia.org/wiki/P
 
 Both of these recursive functions are [recurrence relations](https://en.wikipedia.org/wiki/Recurrence_relation). That means (kind of) that they form sequences where each element relies on previous elements. You might notice the parallel here between recurrence relations and functions which can be tabulated. Can you write a function which will tabulate *any* recurrence relation?
 
-## Problem 4:
+## Problem 4: Self-Referential numbers
 
-Self-ref nums
+Write a program which generates all "self-descriptive" numbers, as described in ![this](https://www.youtube.com/watch?v=K6Qc4oK_HqY) video. The solution video on the same channel should give you some tips on how to code the solution. Can you generalize to arbitrary bases?
 
-## Problem 5:
+## Problem 5: Arranging numbers
 
-Arrange nums
+Write a function that, given a list of non negative integers, arranges them such that they form the largest possible number. For example, given [50, 2, 1, 9], the largest formed number is 95021.
