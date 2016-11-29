@@ -20,7 +20,11 @@ Both of these recursive functions are [recurrence relations](https://en.wikipedi
 
 ## Problem 4: Self-Referential numbers
 
-Write a program which generates all "self-descriptive" numbers, as described in ![this](https://www.youtube.com/watch?v=K6Qc4oK_HqY) video. The solution video on the same channel should give you some tips on how to code the solution. Can you generalize to arbitrary bases?
+Write a program which generates all "self-descriptive" numbers, as described in this video:
+
+[![Video for self-referential numbers](https://img.youtube.com/vi/K6Qc4oK_HqY/0.jpg)](https://www.youtube.com/watch?v=K6Qc4oK_HqY)
+
+The solution video on the same channel should give you some tips on how to code the solution. Can you generalize to arbitrary bases?
 
 ## Problem 5: Arranging numbers
 
